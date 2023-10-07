@@ -1,0 +1,208 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Calibri",Arial, sans-serif;
+}
+
+/*Container as a whole to give style*/
+.container{
+    border: 1px dark black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.sub-container{
+    border: 2px solid gray;
+    border-radius: 55px;
+    margin: 10px;
+    padding: 2px;
+    overflow: hidden;
+}
+
+/* Header Section*/
+/* Apply styles to the header section */
+header {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 20px 0;
+}
+/* Apply styles to the profile class inside header section */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the profile image */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 10px;
+}
+
+/* Style the profile name */
+.profile-name {
+    font-size: 24px; 
+    font-weight: bold; 
+}
+
+
+/*Main section*/
+/* Style the main container */
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Style the "exposures" section */
+.exposures {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.experiences,
+.education {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Style the tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+/* Style the "personals" section */
+.personals {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Style the "contacts" section */
+.contacts {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+/*Footer Content CSS*/
+/* Style the footer container */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Style the footer content */
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the footer links */
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Style the footer author */
+.footer-author {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
